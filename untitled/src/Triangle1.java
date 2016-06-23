@@ -7,9 +7,7 @@ public class Triangle1 {
 
     public static void main(String... a){
 
-        Console console = System.console();
-        System.out.println("console=" + console);
-        console.writer().println("*");
+        System.out.print("*");
 
     }
 
